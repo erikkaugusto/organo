@@ -1,11 +1,11 @@
 import Banner from './componentes/Banner'; // dessa forma vai pegar o index.js dentro da pasta CampoTexto
-import CampoTexto from './componentes/CampoTexto'; 
+import Formulario from './componentes/Formulario';
 
 function App() {
   return (
     <div className="App">
-      <Banner/>
-      <CampoTexto/>
+      <Banner />
+      <Formulario />
     </div>
   );
 }
